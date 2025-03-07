@@ -23,7 +23,7 @@ pip install yfinance pandas numpy statsmodels
 ### Running the Model
 To run the valuation model, execute:
 ```sh
-python dcf_valuation.py
+python dcf.py
 ```
 
 ### Selecting a Market
