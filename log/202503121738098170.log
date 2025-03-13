@@ -1,0 +1,720 @@
+2025-03-12 17:38:35,433 - INFO - Session ID: 202503121738098170, Ticker: CSCO, Message: Starting processing TICKER.
+2025-03-12 17:38:40,055 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 64.11
+2025-03-12 17:38:40,057 - INFO - Session ID: 202503121738098170, FCF Row:
+[10210000000.0, 19037000000.0, 12749000000.0, 14762000000.0]
+2025-03-12 17:38:40,057 - INFO - Market Cap: 242277859328
+2025-03-12 17:38:40,057 - INFO - Total Debt: 32422000640
+2025-03-12 17:38:40,057 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-07-31    698000000.0
+2023-07-31    282000000.0
+2022-07-31    313000000.0
+2021-07-31    215000000.0
+Name: Depreciation Amortization Depletion Income Statement, dtype: object
+2025-03-12 17:38:40,059 - INFO - AAGR: 0.6106499083021951
+2025-03-12 17:38:40,060 - INFO - Forecasted Cash Flows: [np.float64(16444735563.765413), np.float64(49385654560.86674), np.float64(53269617422.455475), np.float64(99345868272.05055)]
+2025-03-12 17:38:40,061 - INFO - Tax Rate: 0.1795
+2025-03-12 17:38:40,957 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:38:40,957 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:38:41,409 - INFO - This is the Cost of Equity CSCO: 1.957%
+2025-03-12 17:38:41,409 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:38:41,409 - INFO - This is the Total Cost of Equity required by an investor to hold CSCO: 6.152%
+2025-03-12 17:38:41,409 - INFO - Cost of Equity: 0.06151893710852174
+2025-03-12 17:38:41,410 - INFO - Cost of Debt: 0.03687452395933371
+2025-03-12 17:38:41,410 - INFO - WACC: 0.05782901292294906
+2025-03-12 17:38:41,410 - INFO - Discounted CF: [np.float64(15545740722.620195), np.float64(44133651973.631676), np.float64(45002138839.30343), np.float64(79339217546.78943)]
+2025-03-12 17:38:42,051 - INFO - Perpetuity Growth Rate: 0.01136
+2025-03-12 17:38:42,051 - INFO - Total Present Value: 1816376315136.0566
+2025-03-12 17:38:42,051 - INFO - Intrinsic Value/Share: 453.3008023798494
+2025-03-12 17:38:42,051 - INFO - Undervalue/Overvalue: 389.1908023798494
+2025-03-12 17:39:14,028 - INFO - Session ID: 202503121738098170, Ticker: ADP, Message: Starting processing TICKER.
+2025-03-12 17:39:17,326 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 293.5
+2025-03-12 17:39:17,328 - INFO - Session ID: 202503121738098170, FCF Row:
+[3594200000.0, 3636000000.0, 2546100000.0, 2587400000.0]
+2025-03-12 17:39:17,328 - INFO - Market Cap: 119388160000
+2025-03-12 17:39:17,328 - INFO - Total Debt: 4377399808
+2025-03-12 17:39:17,328 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-06-30    3744700000.0
+2023-06-30    3500600000.0
+2022-06-30    3171500000.0
+2021-06-30    3040500000.0
+2020-06-30             NaN
+Name: Selling General And Administration, dtype: object
+2025-03-12 17:39:17,329 - INFO - AAGR: nan
+2025-03-12 17:39:17,329 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:39:17,330 - INFO - Tax Rate: 0.22822825000000002
+2025-03-12 17:39:17,969 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:39:17,969 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:39:17,988 - INFO - This is the Cost of Equity ADP: 1.892%
+2025-03-12 17:39:17,988 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:39:17,988 - INFO - This is the Total Cost of Equity required by an investor to hold ADP: 6.087%
+2025-03-12 17:39:17,988 - INFO - Cost of Equity: 0.06086782141793872
+2025-03-12 17:39:17,989 - INFO - Cost of Debt: 0.05403802596511786
+2025-03-12 17:39:17,989 - INFO - WACC: 0.06019006231265058
+2025-03-12 17:39:17,989 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:39:18,837 - INFO - Perpetuity Growth Rate: 0.01377
+2025-03-12 17:39:18,837 - INFO - Total Present Value: nan
+2025-03-12 17:39:18,837 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:39:18,837 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:40:17,434 - INFO - Session ID: 202503121738098170, Ticker: COST, Message: Starting processing TICKER.
+2025-03-12 17:40:21,918 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 985.95
+2025-03-12 17:40:21,920 - INFO - Session ID: 202503121738098170, FCF Row:
+[6629000000.0, 6745000000.0, 3501000000.0, 5370000000.0]
+2025-03-12 17:40:21,920 - INFO - Market Cap: 414332878848
+2025-03-12 17:40:21,921 - INFO - Total Debt: 8039000064
+2025-03-12 17:40:21,921 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-08-31           NaN
+2023-08-31           NaN
+2022-08-31           NaN
+2021-08-31    76000000.0
+2020-08-31    55000000.0
+Name: Other Operating Expenses, dtype: object
+2025-03-12 17:40:21,923 - INFO - AAGR: nan
+2025-03-12 17:40:21,923 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:40:21,924 - INFO - Tax Rate: 0.24725
+2025-03-12 17:40:22,334 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:40:22,334 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:40:22,353 - INFO - This is the Cost of Equity COST: 1.257%
+2025-03-12 17:40:22,353 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:40:22,353 - INFO - This is the Total Cost of Equity required by an investor to hold COST: 5.452%
+2025-03-12 17:40:22,353 - INFO - Cost of Equity: 0.0545242750391622
+2025-03-12 17:40:22,354 - INFO - Cost of Debt: 0.018112750495485577
+2025-03-12 17:40:22,354 - INFO - WACC: 0.05374601791069232
+2025-03-12 17:40:22,354 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:40:22,988 - INFO - Perpetuity Growth Rate: 0.01858
+2025-03-12 17:40:22,988 - INFO - Total Present Value: nan
+2025-03-12 17:40:22,989 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:40:22,989 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:40:33,575 - INFO - Session ID: 202503121738098170, Ticker: APP, Message: Starting processing TICKER.
+2025-03-12 17:40:37,568 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 293.11
+2025-03-12 17:40:37,570 - INFO - Session ID: 202503121738098170, FCF Row:
+[2094235000.0, 1057264000.0, 412111000.0, 360461000.0]
+2025-03-12 17:40:37,571 - INFO - Market Cap: 94566293504
+2025-03-12 17:40:37,571 - INFO - Total Debt: 3556404992
+2025-03-12 17:40:37,571 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    1668983000.0
+2023-12-31    1575689000.0
+2022-12-31    1608784000.0
+2021-12-31    1654993000.0
+2020-12-31             NaN
+Name: Operating Expense, dtype: object
+2025-03-12 17:40:37,573 - INFO - AAGR: nan
+2025-03-12 17:40:37,573 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:40:37,573 - INFO - Tax Rate: 0.1423105
+2025-03-12 17:40:38,390 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:40:38,390 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:40:38,410 - INFO - This is the Cost of Equity APP: -4.548%
+2025-03-12 17:40:38,410 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:40:38,410 - INFO - This is the Total Cost of Equity required by an investor to hold APP: -0.353%
+2025-03-12 17:40:38,410 - INFO - Cost of Equity: -0.003529174790383671
+2025-03-12 17:40:38,410 - INFO - Cost of Debt: 0.0651170068289235
+2025-03-12 17:40:38,410 - INFO - WACC: -0.001377001926795617
+2025-03-12 17:40:38,410 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:40:39,118 - INFO - Perpetuity Growth Rate: 0.05692
+2025-03-12 17:40:39,118 - INFO - Total Present Value: nan
+2025-03-12 17:40:39,118 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:40:39,118 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:40:54,403 - INFO - Session ID: 202503121738098170, Ticker: AVGO, Message: Starting processing TICKER.
+2025-03-12 17:40:58,315 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 206.12
+2025-03-12 17:40:58,315 - INFO - Session ID: 202503121738098170, FCF Row:
+[19414000000.0, 17633000000.0, 16312000000.0, 13321000000.0]
+2025-03-12 17:40:58,315 - INFO - Market Cap: 925692461056
+2025-03-12 17:40:58,315 - INFO - Total Debt: 40456998912
+2025-03-12 17:40:58,315 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-10-31   -3492000000.0
+2023-10-31   -1087000000.0
+2022-10-31   -1637000000.0
+2021-10-31   -1869000000.0
+2020-10-31             NaN
+Name: Net Non Operating Interest Income Expense, dtype: object
+2025-03-12 17:40:58,315 - INFO - AAGR: nan
+2025-03-12 17:40:58,316 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:40:58,316 - INFO - Tax Rate: 0.131
+2025-03-12 17:40:59,114 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:40:59,114 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:40:59,133 - INFO - This is the Cost of Equity AVGO: -1.296%
+2025-03-12 17:40:59,133 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:40:59,133 - INFO - This is the Total Cost of Equity required by an investor to hold AVGO: 2.899%
+2025-03-12 17:40:59,133 - INFO - Cost of Equity: 0.028987819245538907
+2025-03-12 17:40:59,134 - INFO - Cost of Debt: 0.049435605246183616
+2025-03-12 17:40:59,134 - INFO - WACC: 0.029572877721042577
+2025-03-12 17:40:59,134 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:40:59,728 - INFO - Perpetuity Growth Rate: 0.02896
+2025-03-12 17:40:59,728 - INFO - Total Present Value: nan
+2025-03-12 17:40:59,728 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:40:59,729 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:41:14,173 - INFO - Session ID: 202503121738098170, Ticker: TMUS, Message: Starting processing TICKER.
+2025-03-12 17:41:15,727 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 255.75
+2025-03-12 17:41:15,728 - INFO - Session ID: 202503121738098170, FCF Row:
+[9982000000.0, 7748000000.0, -520000000.0, -7775000000.0]
+2025-03-12 17:41:15,729 - INFO - Market Cap: 291451994112
+2025-03-12 17:41:15,729 - INFO - Total Debt: 114958000128
+2025-03-12 17:41:15,729 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    18010000000.0
+2023-12-31    14241000000.0
+2022-12-31     8107000000.0
+2021-12-31     6892000000.0
+2020-12-31              NaN
+Name: Operating Income, dtype: object
+2025-03-12 17:41:15,730 - INFO - AAGR: nan
+2025-03-12 17:41:15,730 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:15,731 - INFO - Tax Rate: 0.18706725
+2025-03-12 17:41:16,036 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:41:16,036 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:41:16,055 - INFO - This is the Cost of Equity TMUS: 2.594%
+2025-03-12 17:41:16,055 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:41:16,055 - INFO - This is the Total Cost of Equity required by an investor to hold TMUS: 6.789%
+2025-03-12 17:41:16,055 - INFO - Cost of Equity: 0.06789482037182465
+2025-03-12 17:41:16,055 - INFO - Cost of Debt: 0.030051000918150564
+2025-03-12 17:41:16,055 - INFO - WACC: 0.05560011072056244
+2025-03-12 17:41:16,055 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:16,453 - INFO - Perpetuity Growth Rate: 0.01954
+2025-03-12 17:41:16,454 - INFO - Total Present Value: nan
+2025-03-12 17:41:16,454 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:41:16,454 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:41:26,737 - INFO - Session ID: 202503121738098170, Ticker: ASML, Message: Starting processing TICKER.
+2025-03-12 17:41:28,193 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 704.6
+2025-03-12 17:41:28,194 - INFO - Session ID: 202503121738098170, FCF Row:
+[9083100000.0, 3247200000.0, 7167500000.0, 9905500000.0]
+2025-03-12 17:41:28,194 - INFO - Market Cap: 278354264064
+2025-03-12 17:41:28,194 - INFO - Total Debt: 5064500224
+2025-03-12 17:41:28,195 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    5469400000.0
+2023-12-31    5093800000.0
+2022-12-31    4199400000.0
+2021-12-31    3272600000.0
+2020-12-31             NaN
+Name: Operating Expense, dtype: object
+2025-03-12 17:41:28,195 - INFO - AAGR: nan
+2025-03-12 17:41:28,195 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:28,196 - INFO - Tax Rate: 0.1615575
+2025-03-12 17:41:28,476 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:41:28,476 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:41:28,495 - INFO - This is the Cost of Equity ASML: -1.997%
+2025-03-12 17:41:28,495 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:41:28,495 - INFO - This is the Total Cost of Equity required by an investor to hold ASML: 2.198%
+2025-03-12 17:41:28,495 - INFO - Cost of Equity: 0.021984340298100778
+2025-03-12 17:41:28,495 - INFO - Cost of Debt: 0.023712129136684707
+2025-03-12 17:41:28,495 - INFO - WACC: 0.02194675962942705
+2025-03-12 17:41:28,495 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:28,980 - INFO - Perpetuity Growth Rate: 0.02077
+2025-03-12 17:41:28,980 - INFO - Total Present Value: nan
+2025-03-12 17:41:28,980 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:41:28,980 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:41:37,114 - INFO - Session ID: 202503121738098170, Ticker: AZN, Message: Starting processing TICKER.
+2025-03-12 17:41:38,508 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 75.62
+2025-03-12 17:41:38,510 - INFO - Session ID: 202503121738098170, FCF Row:
+[7275000000.0, 6567000000.0, 7237000000.0, 3763000000.0]
+2025-03-12 17:41:38,510 - INFO - Market Cap: 241620353024
+2025-03-12 17:41:38,510 - INFO - Total Debt: 30460000256
+2025-03-12 17:41:38,511 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    458000000.0
+2023-12-31    344000000.0
+2022-12-31     81000000.0
+2021-12-31     43000000.0
+2020-12-31            NaN
+Name: Interest Income Non Operating, dtype: object
+2025-03-12 17:41:38,512 - INFO - AAGR: nan
+2025-03-12 17:41:38,512 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:38,512 - INFO - Tax Rate: 0.17746299999999998
+2025-03-12 17:41:38,793 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:41:38,793 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:41:38,813 - INFO - This is the Cost of Equity AZN: 3.273%
+2025-03-12 17:41:38,813 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:41:38,813 - INFO - This is the Total Cost of Equity required by an investor to hold AZN: 7.468%
+2025-03-12 17:41:38,813 - INFO - Cost of Equity: 0.07468249094720394
+2025-03-12 17:41:38,813 - INFO - Cost of Debt: 0.0503077920656174
+2025-03-12 17:41:38,813 - INFO - WACC: 0.07095420534953568
+2025-03-12 17:41:38,813 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:39,335 - INFO - Perpetuity Growth Rate: 0.011
+2025-03-12 17:41:39,335 - INFO - Total Present Value: nan
+2025-03-12 17:41:39,335 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:41:39,335 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:41:54,013 - INFO - Session ID: 202503121738098170, Ticker: LIN, Message: Starting processing TICKER.
+2025-03-12 17:41:55,587 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 476.88
+2025-03-12 17:41:55,589 - INFO - Session ID: 202503121738098170, FCF Row:
+[4926000000.0, 5518000000.0, 5691000000.0, 6639000000.0]
+2025-03-12 17:41:55,589 - INFO - Market Cap: 213226569728
+2025-03-12 17:41:55,589 - INFO - Total Debt: 22609000448
+2025-03-12 17:41:55,589 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31   -11000000.0
+2023-12-31   -47000000.0
+2022-12-31   -18000000.0
+2021-12-31   -29000000.0
+2020-12-31           NaN
+Name: Gain On Sale Of Security, dtype: object
+2025-03-12 17:41:55,590 - INFO - AAGR: nan
+2025-03-12 17:41:55,590 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:55,591 - INFO - Tax Rate: 0.24180125000000002
+2025-03-12 17:41:55,947 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:41:55,947 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:41:55,965 - INFO - This is the Cost of Equity LIN: 2.246%
+2025-03-12 17:41:55,966 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:41:55,966 - INFO - This is the Total Cost of Equity required by an investor to hold LIN: 6.441%
+2025-03-12 17:41:55,966 - INFO - Cost of Equity: 0.06440682377799242
+2025-03-12 17:41:55,966 - INFO - Cost of Debt: 0.016703279562205093
+2025-03-12 17:41:55,966 - INFO - WACC: 0.05944640006848652
+2025-03-12 17:41:55,966 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:41:56,608 - INFO - Perpetuity Growth Rate: 0.01417
+2025-03-12 17:41:56,608 - INFO - Total Present Value: nan
+2025-03-12 17:41:56,608 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:41:56,608 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:42:07,419 - INFO - Session ID: 202503121738098170, Ticker: ADBE, Message: Starting processing TICKER.
+2025-03-12 17:42:08,749 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 461.99
+2025-03-12 17:42:08,750 - INFO - Session ID: 202503121738098170, FCF Row:
+[7873000000.0, 6942000000.0, 7396000000.0, 6882000000.0]
+2025-03-12 17:42:08,750 - INFO - Market Cap: 191345983488
+2025-03-12 17:42:08,750 - INFO - Total Debt: 6056000000
+2025-03-12 17:42:08,751 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-11-30    169000000.0
+2023-11-30    168000000.0
+2022-11-30    169000000.0
+2021-11-30    172000000.0
+2020-11-30            NaN
+Name: Depreciation Amortization Depletion Income Statement, dtype: object
+2025-03-12 17:42:08,751 - INFO - AAGR: nan
+2025-03-12 17:42:08,751 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:42:08,752 - INFO - Tax Rate: 0.19
+2025-03-12 17:42:09,004 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:42:09,004 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:42:09,023 - INFO - This is the Cost of Equity ADBE: -0.755%
+2025-03-12 17:42:09,023 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:42:09,023 - INFO - This is the Total Cost of Equity required by an investor to hold ADBE: 3.440%
+2025-03-12 17:42:09,023 - INFO - Cost of Equity: 0.034400039176434825
+2025-03-12 17:42:09,023 - INFO - Cost of Debt: 0.02607756403662175
+2025-03-12 17:42:09,023 - INFO - WACC: 0.03399271400011666
+2025-03-12 17:42:09,023 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:42:09,620 - INFO - Perpetuity Growth Rate: 0.01836
+2025-03-12 17:42:09,620 - INFO - Total Present Value: nan
+2025-03-12 17:42:09,620 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:42:09,620 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:42:20,940 - INFO - Session ID: 202503121738098170, Ticker: NVDA, Message: Starting processing TICKER.
+2025-03-12 17:42:22,360 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 116.8
+2025-03-12 17:42:22,363 - INFO - Session ID: 202503121738098170, FCF Row:
+[60853000000.0, 27021000000.0, 3808000000.0, 8132000000.0]
+2025-03-12 17:42:22,363 - INFO - Market Cap: 2820151967744
+2025-03-12 17:42:22,363 - INFO - Total Debt: 10270000128
+2025-03-12 17:42:22,364 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2025-01-31    3491000000.0
+2024-01-31    2654000000.0
+2023-01-31    2440000000.0
+2022-01-31    2166000000.0
+Name: Selling General And Administration, dtype: object
+2025-03-12 17:42:22,365 - INFO - AAGR: 0.17652613385570318
+2025-03-12 17:42:22,366 - INFO - Forecasted Cash Flows: [np.float64(71595144823.5211), np.float64(37402839567.04365), np.float64(6201570357.27014), np.float64(15581299799.604364)]
+2025-03-12 17:42:22,366 - INFO - Tax Rate: 0.1205
+2025-03-12 17:42:22,691 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:42:22,691 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:42:22,709 - INFO - This is the Cost of Equity NVDA: -3.396%
+2025-03-12 17:42:22,709 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:42:22,709 - INFO - This is the Total Cost of Equity required by an investor to hold NVDA: 0.799%
+2025-03-12 17:42:22,709 - INFO - Cost of Equity: 0.007993772710691224
+2025-03-12 17:42:22,710 - INFO - Cost of Debt: 0.02217402850314243
+2025-03-12 17:42:22,710 - INFO - WACC: 0.008035529767921372
+2025-03-12 17:42:22,710 - INFO - Discounted CF: [np.float64(71024425934.67351), np.float64(36808904726.37864), np.float64(6054442456.838588), np.float64(15090385167.722147)]
+2025-03-12 17:42:23,232 - INFO - Perpetuity Growth Rate: 0.0547
+2025-03-12 17:42:23,233 - INFO - Total Present Value: -209372551088.43463
+2025-03-12 17:42:23,233 - INFO - Intrinsic Value/Share: -8.553848555314566
+2025-03-12 17:42:23,233 - INFO - Undervalue/Overvalue: -125.35384855531456
+2025-03-12 17:43:09,338 - INFO - Session ID: 202503121738098170, Ticker: AMD, Message: Starting processing TICKER.
+2025-03-12 17:43:11,755 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 106.07
+2025-03-12 17:43:11,762 - INFO - Session ID: 202503121738098170, FCF Row:
+[2405000000.0, 1121000000.0, 3115000000.0, 3220000000.0]
+2025-03-12 17:43:11,762 - INFO - Market Cap: 162971680768
+2025-03-12 17:43:11,762 - INFO - Total Debt: 2320999936
+2025-03-12 17:43:11,763 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    182000000.0
+2023-12-31    206000000.0
+2022-12-31     65000000.0
+2021-12-31      8000000.0
+2020-12-31            NaN
+Name: Interest Income Non Operating, dtype: object
+2025-03-12 17:43:11,764 - INFO - AAGR: nan
+2025-03-12 17:43:11,764 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:11,765 - INFO - Tax Rate: 0.18745499999999998
+2025-03-12 17:43:12,087 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:43:12,088 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:43:12,106 - INFO - This is the Cost of Equity AMD: -2.513%
+2025-03-12 17:43:12,106 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:43:12,106 - INFO - This is the Total Cost of Equity required by an investor to hold AMD: 1.682%
+2025-03-12 17:43:12,106 - INFO - Cost of Equity: 0.01681528389384511
+2025-03-12 17:43:12,107 - INFO - Cost of Debt: 0.03661746195216844
+2025-03-12 17:43:12,107 - INFO - WACC: 0.016996956894155466
+2025-03-12 17:43:12,107 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:12,526 - INFO - Perpetuity Growth Rate: 0.04298
+2025-03-12 17:43:12,526 - INFO - Total Present Value: nan
+2025-03-12 17:43:12,526 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:43:12,526 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:43:30,938 - INFO - Session ID: 202503121738098170, Ticker: GOOG, Message: Starting processing TICKER.
+2025-03-12 17:43:33,054 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 176.8
+2025-03-12 17:43:33,055 - INFO - Session ID: 202503121738098170, FCF Row:
+[72764000000.0, 69495000000.0, 60010000000.0, 67012000000.0]
+2025-03-12 17:43:33,056 - INFO - Market Cap: 2029396295680
+2025-03-12 17:43:33,056 - INFO - Total Debt: 28137000960
+2025-03-12 17:43:33,056 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    49326000000.0
+2023-12-31    45427000000.0
+2022-12-31    39500000000.0
+2021-12-31    31562000000.0
+2020-12-31              NaN
+Name: Research And Development, dtype: object
+2025-03-12 17:43:33,057 - INFO - AAGR: nan
+2025-03-12 17:43:33,057 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:33,057 - INFO - Tax Rate: 0.15600000000000003
+2025-03-12 17:43:33,396 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:43:33,396 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:43:33,413 - INFO - This is the Cost of Equity GOOG: 0.007%
+2025-03-12 17:43:33,413 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:43:33,413 - INFO - This is the Total Cost of Equity required by an investor to hold GOOG: 4.202%
+2025-03-12 17:43:33,414 - INFO - Cost of Equity: 0.04202129701701962
+2025-03-12 17:43:33,414 - INFO - Cost of Debt: 0.011558342972816656
+2025-03-12 17:43:33,414 - INFO - WACC: 0.041580055051501495
+2025-03-12 17:43:33,414 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:33,886 - INFO - Perpetuity Growth Rate: 0.01767
+2025-03-12 17:43:33,886 - INFO - Total Present Value: nan
+2025-03-12 17:43:33,887 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:43:33,887 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:43:36,965 - INFO - Session ID: 202503121738098170, Ticker: GOOGL, Message: Starting processing TICKER.
+2025-03-12 17:43:39,559 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 174.95
+2025-03-12 17:43:39,559 - INFO - Session ID: 202503121738098170, FCF Row:
+[72764000000.0, 69495000000.0, 60010000000.0, 67012000000.0]
+2025-03-12 17:43:39,559 - INFO - Market Cap: 2026976837632
+2025-03-12 17:43:39,559 - INFO - Total Debt: 28137000960
+2025-03-12 17:43:39,559 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    49326000000.0
+2023-12-31    45427000000.0
+2022-12-31    39500000000.0
+2021-12-31    31562000000.0
+2020-12-31              NaN
+Name: Research And Development, dtype: object
+2025-03-12 17:43:39,560 - INFO - AAGR: nan
+2025-03-12 17:43:39,560 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:39,560 - INFO - Tax Rate: 0.15600000000000003
+2025-03-12 17:43:40,052 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:43:40,052 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:43:40,071 - INFO - This is the Cost of Equity GOOGL: -0.000%
+2025-03-12 17:43:40,071 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:43:40,071 - INFO - This is the Total Cost of Equity required by an investor to hold GOOGL: 4.195%
+2025-03-12 17:43:40,071 - INFO - Cost of Equity: 0.04194860546235256
+2025-03-12 17:43:40,071 - INFO - Cost of Debt: 0.011558342972816656
+2025-03-12 17:43:40,072 - INFO - WACC: 0.041507839264113354
+2025-03-12 17:43:40,072 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:40,751 - INFO - Perpetuity Growth Rate: 0.01746
+2025-03-12 17:43:40,751 - INFO - Total Present Value: nan
+2025-03-12 17:43:40,751 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:43:40,751 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:43:44,207 - INFO - Session ID: 202503121738098170, Ticker: META, Message: Starting processing TICKER.
+2025-03-12 17:43:46,247 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 622.77
+2025-03-12 17:43:46,248 - INFO - Session ID: 202503121738098170, FCF Row:
+[54072000000.0, 44068000000.0, 19289000000.0, 38993000000.0]
+2025-03-12 17:43:46,248 - INFO - Market Cap: 1569120583680
+2025-03-12 17:43:46,248 - INFO - Total Debt: 49769000960
+2025-03-12 17:43:46,248 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    64960000000.0
+2023-12-31    62192000000.0
+2022-12-31    62416000000.0
+2021-12-31    48527000000.0
+2020-12-31              NaN
+Name: Operating Expense, dtype: object
+2025-03-12 17:43:46,249 - INFO - AAGR: nan
+2025-03-12 17:43:46,249 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:46,249 - INFO - Tax Rate: 0.164
+2025-03-12 17:43:46,630 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:43:46,631 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:43:46,649 - INFO - This is the Cost of Equity META: -0.494%
+2025-03-12 17:43:46,650 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:43:46,650 - INFO - This is the Total Cost of Equity required by an investor to hold META: 3.701%
+2025-03-12 17:43:46,650 - INFO - Cost of Equity: 0.03700589028124045
+2025-03-12 17:43:46,650 - INFO - Cost of Debt: 0.010800107291058552
+2025-03-12 17:43:46,650 - INFO - WACC: 0.03614580236528293
+2025-03-12 17:43:46,650 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:46,938 - INFO - Perpetuity Growth Rate: 0.02174
+2025-03-12 17:43:46,938 - INFO - Total Present Value: nan
+2025-03-12 17:43:46,938 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:43:46,938 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:43:50,097 - INFO - Session ID: 202503121738098170, Ticker: TSLA, Message: Starting processing TICKER.
+2025-03-12 17:43:52,314 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 248.92
+2025-03-12 17:43:52,317 - INFO - Session ID: 202503121738098170, FCF Row:
+[3581000000.0, 4357000000.0, 7552000000.0, 3483000000.0]
+2025-03-12 17:43:52,317 - INFO - Market Cap: 798242766848
+2025-03-12 17:43:52,317 - INFO - Total Debt: 13623000064
+2025-03-12 17:43:52,317 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    1569000000.0
+2023-12-31    1066000000.0
+2022-12-31     297000000.0
+2021-12-31      56000000.0
+2020-12-31             NaN
+Name: Interest Income Non Operating, dtype: object
+2025-03-12 17:43:52,319 - INFO - AAGR: nan
+2025-03-12 17:43:52,319 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:52,320 - INFO - Tax Rate: 0.15000000000000002
+2025-03-12 17:43:52,752 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:43:52,752 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:43:52,771 - INFO - This is the Cost of Equity TSLA: -2.962%
+2025-03-12 17:43:52,772 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:43:52,772 - INFO - This is the Total Cost of Equity required by an investor to hold TSLA: 1.233%
+2025-03-12 17:43:52,772 - INFO - Cost of Equity: 0.012331486373108935
+2025-03-12 17:43:52,772 - INFO - Cost of Debt: 0.028241267154983207
+2025-03-12 17:43:52,772 - INFO - WACC: 0.012527367679418493
+2025-03-12 17:43:52,772 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:43:53,206 - INFO - Perpetuity Growth Rate: 0.03962
+2025-03-12 17:43:53,206 - INFO - Total Present Value: nan
+2025-03-12 17:43:53,207 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:43:53,207 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:44:03,870 - INFO - Session ID: 202503121738098170, Ticker: AMZN, Message: Starting processing TICKER.
+2025-03-12 17:44:06,265 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 202.0
+2025-03-12 17:44:06,265 - INFO - Session ID: 202503121738098170, FCF Row:
+[32878000000.0, 32217000000.0, -16893000000.0, -14726000000.0]
+2025-03-12 17:44:06,266 - INFO - Market Cap: 2102424633344
+2025-03-12 17:44:06,266 - INFO - Total Debt: 155400994816
+2025-03-12 17:44:06,266 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31              NaN
+2023-12-31              NaN
+2022-12-31              NaN
+2021-12-31              NaN
+2020-12-31    42740000000.0
+Name: Research And Development, dtype: object
+2025-03-12 17:44:06,266 - INFO - AAGR: nan
+2025-03-12 17:44:06,266 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:44:06,266 - INFO - Tax Rate: 0.1650475
+2025-03-12 17:44:06,658 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:44:06,658 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:44:06,677 - INFO - This is the Cost of Equity AMZN: -0.907%
+2025-03-12 17:44:06,677 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:44:06,677 - INFO - This is the Total Cost of Equity required by an investor to hold AMZN: 3.288%
+2025-03-12 17:44:06,678 - INFO - Cost of Equity: 0.032877817141011643
+2025-03-12 17:44:06,678 - INFO - Cost of Debt: 0.01866835938694974
+2025-03-12 17:44:06,678 - INFO - WACC: 0.03168774289170136
+2025-03-12 17:44:06,678 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:44:07,211 - INFO - Perpetuity Growth Rate: 0.02371
+2025-03-12 17:44:07,211 - INFO - Total Present Value: nan
+2025-03-12 17:44:07,211 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:44:07,211 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:44:45,317 - INFO - Session ID: 202503121738098170, Ticker: AMAT, Message: Starting processing TICKER.
+2025-03-12 17:44:47,364 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 156.71
+2025-03-12 17:44:47,366 - INFO - Session ID: 202503121738098170, FCF Row:
+[7487000000.0, 7594000000.0, 4612000000.0, 4774000000.0]
+2025-03-12 17:44:47,366 - INFO - Market Cap: 122304864256
+2025-03-12 17:44:47,367 - INFO - Total Debt: 6588000256
+2025-03-12 17:44:47,367 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-10-31    1797000000.0
+2023-10-31    1628000000.0
+2022-10-31    1438000000.0
+2021-10-31    1229000000.0
+Name: Selling General And Administration, dtype: object
+2025-03-12 17:44:47,368 - INFO - AAGR: 0.13533108872586788
+2025-03-12 17:44:47,368 - INFO - Forecasted Cash Flows: [np.float64(8500223861.290572), np.float64(9788488915.722565), np.float64(6749271357.203925), np.float64(7931814261.326326)]
+2025-03-12 17:44:47,369 - INFO - Tax Rate: 0.1255
+2025-03-12 17:44:47,815 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:44:47,816 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:44:47,835 - INFO - This is the Cost of Equity AMAT: -1.899%
+2025-03-12 17:44:47,835 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:44:47,835 - INFO - This is the Total Cost of Equity required by an investor to hold AMAT: 2.296%
+2025-03-12 17:44:47,835 - INFO - Cost of Equity: 0.022961001177217347
+2025-03-12 17:44:47,835 - INFO - Cost of Debt: 0.03923595319799893
+2025-03-12 17:44:47,835 - INFO - WACC: 0.023541167786233747
+2025-03-12 17:44:47,835 - INFO - Discounted CF: [np.float64(8304721030.103051), np.float64(9343401751.214518), np.float64(6294205878.440574), np.float64(7226887189.168747)]
+2025-03-12 17:44:48,603 - INFO - Perpetuity Growth Rate: 0.02192
+2025-03-12 17:44:48,603 - INFO - Total Present Value: 4481936569150.122
+2025-03-12 17:44:48,604 - INFO - Intrinsic Value/Share: 5479.140060085724
+2025-03-12 17:44:48,604 - INFO - Undervalue/Overvalue: 5322.430060085724
+2025-03-12 17:45:18,359 - INFO - Session ID: 202503121738098170, Ticker: ADP, Message: Starting processing TICKER.
+2025-03-12 17:45:21,378 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 292.92
+2025-03-12 17:45:21,380 - INFO - Session ID: 202503121738098170, FCF Row:
+[3594200000.0, 3636000000.0, 2546100000.0, 2587400000.0]
+2025-03-12 17:45:21,381 - INFO - Market Cap: 119121657856
+2025-03-12 17:45:21,381 - INFO - Total Debt: 4377399808
+2025-03-12 17:45:21,381 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-06-30    3744700000.0
+2023-06-30    3500600000.0
+2022-06-30    3171500000.0
+2021-06-30    3040500000.0
+2020-06-30             NaN
+Name: Selling General And Administration, dtype: object
+2025-03-12 17:45:21,382 - INFO - AAGR: nan
+2025-03-12 17:45:21,382 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:45:21,383 - INFO - Tax Rate: 0.22822825000000002
+2025-03-12 17:45:21,863 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:45:21,864 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:45:21,883 - INFO - This is the Cost of Equity ADP: 1.892%
+2025-03-12 17:45:21,883 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:45:21,883 - INFO - This is the Total Cost of Equity required by an investor to hold ADP: 6.087%
+2025-03-12 17:45:21,883 - INFO - Cost of Equity: 0.060867796885230835
+2025-03-12 17:45:21,883 - INFO - Cost of Debt: 0.05403802596511786
+2025-03-12 17:45:21,884 - INFO - WACC: 0.06018857609376777
+2025-03-12 17:45:21,884 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:45:22,482 - INFO - Perpetuity Growth Rate: 0.01377
+2025-03-12 17:45:22,482 - INFO - Total Present Value: nan
+2025-03-12 17:45:22,482 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:45:22,482 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:45:24,963 - INFO - Session ID: 202503121738098170, Ticker: COIN, Message: Starting processing TICKER.
+2025-03-12 17:45:26,844 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 200.0
+2025-03-12 17:45:26,846 - INFO - Session ID: 202503121738098170, FCF Row:
+[2556844000.0, 859749000.0, -1646457000.0, 3955299000.0]
+2025-03-12 17:45:26,846 - INFO - Market Cap: 48394416128
+2025-03-12 17:45:26,846 - INFO - Total Debt: 4629577216
+2025-03-12 17:45:26,847 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    2235435000.0
+2023-12-31     -70870000.0
+2022-12-31   -1959919000.0
+2021-12-31    3208401000.0
+Name: Operating Income, dtype: object
+2025-03-12 17:45:26,848 - INFO - AAGR: 10.631907906993327
+2025-03-12 17:45:26,848 - INFO - Forecasted Cash Flows: [np.float64(29740973940.548447), np.float64(116325141517.15479), np.float64(-2591213861083.1436), np.float64(72407431132631.33)]
+2025-03-12 17:45:26,849 - INFO - Tax Rate: 0.18676375
+2025-03-12 17:45:27,194 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:45:27,194 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:45:27,214 - INFO - This is the Cost of Equity COIN: -6.844%
+2025-03-12 17:45:27,215 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:45:27,215 - INFO - This is the Total Cost of Equity required by an investor to hold COIN: -2.649%
+2025-03-12 17:45:27,215 - INFO - Cost of Equity: -0.02648916443218348
+2025-03-12 17:45:27,215 - INFO - Cost of Debt: 0.01966191553071427
+2025-03-12 17:45:27,215 - INFO - WACC: -0.02278028563484048
+2025-03-12 17:45:27,215 - INFO - Discounted CF: [np.float64(30434275427.885075), np.float64(121811740861.14682), np.float64(-2776684901171.4023), np.float64(79398858845411.3)]
+2025-03-12 17:45:27,628 - INFO - Perpetuity Growth Rate: 0.02385
+2025-03-12 17:45:27,628 - INFO - Total Present Value: -1707206888065689.5
+2025-03-12 17:45:27,628 - INFO - Intrinsic Value/Share: -6730826.715288162
+2025-03-12 17:45:27,629 - INFO - Undervalue/Overvalue: -6731026.715288162
+2025-03-12 17:45:58,893 - INFO - Session ID: 202503121738098170, Ticker: CME, Message: Starting processing TICKER.
+2025-03-12 17:46:01,481 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 265.75
+2025-03-12 17:46:01,483 - INFO - Session ID: 202503121738098170, FCF Row:
+[3596500000.0, 3377400000.0, 2966300000.0, 2275200000.0]
+2025-03-12 17:46:01,483 - INFO - Market Cap: 91633614848
+2025-03-12 17:46:01,483 - INFO - Total Debt: 3821400064
+2025-03-12 17:46:01,483 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    878800000.0
+2023-12-31    817600000.0
+2022-12-31    750400000.0
+2021-12-31    670400000.0
+2020-12-31            NaN
+Name: Other Operating Expenses, dtype: object
+2025-03-12 17:46:01,484 - INFO - AAGR: nan
+2025-03-12 17:46:01,484 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:01,485 - INFO - Tax Rate: 0.2235015
+2025-03-12 17:46:01,880 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:46:01,880 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:46:01,899 - INFO - This is the Cost of Equity CME: 2.818%
+2025-03-12 17:46:01,899 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:46:01,899 - INFO - This is the Total Cost of Equity required by an investor to hold CME: 7.013%
+2025-03-12 17:46:01,899 - INFO - Cost of Equity: 0.07012675942578933
+2025-03-12 17:46:01,899 - INFO - Cost of Debt: 0.047310528576316346
+2025-03-12 17:46:01,899 - INFO - WACC: 0.06879003205260255
+2025-03-12 17:46:01,899 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:02,450 - INFO - Perpetuity Growth Rate: 0.01322
+2025-03-12 17:46:02,450 - INFO - Total Present Value: nan
+2025-03-12 17:46:02,450 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:46:02,450 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:46:15,280 - INFO - Session ID: 202503121738098170, Ticker: CHTR, Message: Starting processing TICKER.
+2025-03-12 17:46:17,099 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 344.71
+2025-03-12 17:46:17,102 - INFO - Session ID: 202503121738098170, FCF Row:
+[4257000000.0, 3490000000.0, 6102000000.0, 8684000000.0]
+2025-03-12 17:46:17,102 - INFO - Market Cap: 48797818880
+2025-03-12 17:46:17,102 - INFO - Total Debt: 97176002560
+2025-03-12 17:46:17,102 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    13245000000.0
+2023-12-31    12506000000.0
+2022-12-31    12243000000.0
+2021-12-31    10855000000.0
+2020-12-31              NaN
+Name: Operating Income, dtype: object
+2025-03-12 17:46:17,103 - INFO - AAGR: nan
+2025-03-12 17:46:17,103 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:17,104 - INFO - Tax Rate: 0.20889425
+2025-03-12 17:46:17,439 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:46:17,439 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:46:17,457 - INFO - This is the Cost of Equity CHTR: 1.427%
+2025-03-12 17:46:17,457 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:46:17,457 - INFO - This is the Total Cost of Equity required by an investor to hold CHTR: 5.622%
+2025-03-12 17:46:17,457 - INFO - Cost of Equity: 0.056219980922775886
+2025-03-12 17:46:17,457 - INFO - Cost of Debt: 0.04958293992143934
+2025-03-12 17:46:17,457 - INFO - WACC: 0.04490651121149139
+2025-03-12 17:46:17,457 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:17,850 - INFO - Perpetuity Growth Rate: 0.00913
+2025-03-12 17:46:17,850 - INFO - Total Present Value: nan
+2025-03-12 17:46:17,850 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:46:17,850 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:46:20,917 - INFO - Session ID: 202503121738098170, Ticker: LULU, Message: Starting processing TICKER.
+2025-03-12 17:46:23,029 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 318.33
+2025-03-12 17:46:23,029 - INFO - Session ID: 202503121738098170, FCF Row:
+[1644299000.0, 327806000.0, 994606000.0, 574110000.0]
+2025-03-12 17:46:23,029 - INFO - Market Cap: 38718787584
+2025-03-12 17:46:23,030 - INFO - Total Debt: 1514100992
+2025-03-12 17:46:23,030 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-01-31    5609405000.0
+2023-01-31    4492340000.0
+2022-01-31    3608565000.0
+2021-01-31    2463991000.0
+Name: Gross Profit, dtype: object
+2025-03-12 17:46:23,030 - INFO - AAGR: 0.31936355988039894
+2025-03-12 17:46:23,031 - INFO - Forecasted Cash Flows: [np.float64(2169428182.1477804), np.float64(570618526.9106023), np.float64(2284254712.686271), np.float64(1739614629.65712)]
+2025-03-12 17:46:23,031 - INFO - Tax Rate: 0.29925
+2025-03-12 17:46:23,364 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:46:23,364 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:46:23,383 - INFO - This is the Cost of Equity LULU: 0.603%
+2025-03-12 17:46:23,383 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:46:23,383 - INFO - This is the Total Cost of Equity required by an investor to hold LULU: 4.798%
+2025-03-12 17:46:23,383 - INFO - Cost of Equity: 0.0479821838500189
+2025-03-12 17:46:23,384 - INFO - Cost of Debt: nan
+2025-03-12 17:46:23,384 - INFO - WACC: nan
+2025-03-12 17:46:23,384 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:23,813 - INFO - Perpetuity Growth Rate: 0.01914
+2025-03-12 17:46:23,813 - INFO - Total Present Value: nan
+2025-03-12 17:46:23,813 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:46:23,813 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:46:26,120 - INFO - Session ID: 202503121738098170, Ticker: FANG, Message: Starting processing TICKER.
+2025-03-12 17:46:28,168 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 152.74
+2025-03-12 17:46:28,169 - INFO - Session ID: 202503121738098170, FCF Row:
+[-5374000000.0, 1206000000.0, 2712000000.0, 1670000000.0]
+2025-03-12 17:46:28,169 - INFO - Market Cap: 42327851008
+2025-03-12 17:46:28,169 - INFO - Total Debt: 13098999808
+2025-03-12 17:46:28,169 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31   -135000000.0
+2023-12-31   -159000000.0
+2022-12-31   -154000000.0
+2021-12-31   -199000000.0
+2020-12-31            NaN
+Name: Net Non Operating Interest Income Expense, dtype: object
+2025-03-12 17:46:28,170 - INFO - AAGR: nan
+2025-03-12 17:46:28,170 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:28,171 - INFO - Tax Rate: 0.20375
+2025-03-12 17:46:28,563 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:46:28,563 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:46:28,582 - INFO - This is the Cost of Equity FANG: 2.377%
+2025-03-12 17:46:28,582 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:46:28,582 - INFO - This is the Total Cost of Equity required by an investor to hold FANG: 6.572%
+2025-03-12 17:46:28,582 - INFO - Cost of Equity: 0.06571943389501111
+2025-03-12 17:46:28,582 - INFO - Cost of Debt: 0.024037017006189532
+2025-03-12 17:46:28,582 - INFO - WACC: 0.05471121556084552
+2025-03-12 17:46:28,582 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:29,182 - INFO - Perpetuity Growth Rate: 0.01664
+2025-03-12 17:46:29,182 - INFO - Total Present Value: nan
+2025-03-12 17:46:29,182 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:46:29,182 - INFO - Undervalue/Overvalue: nan
+2025-03-12 17:46:53,786 - INFO - Session ID: 202503121738098170, Ticker: VRTX, Message: Starting processing TICKER.
+2025-03-12 17:46:55,981 - INFO - Session ID: 202503121738098170, This is the Current Stock Price: 493.05
+2025-03-12 17:46:55,982 - INFO - Session ID: 202503121738098170, FCF Row:
+[-978000000.0, 3278900000.0, 3925200000.0, 2408500000.0]
+2025-03-12 17:46:55,982 - INFO - Market Cap: 126451097600
+2025-03-12 17:46:55,982 - INFO - Total Debt: 1749500032
+2025-03-12 17:46:55,982 - INFO - Session ID: 202503121738098170, 
+Revenue Row: 2024-12-31    30600000.0
+2023-12-31    44100000.0
+2022-12-31    54800000.0
+2021-12-31    61500000.0
+2020-12-31           NaN
+Name: Interest Expense Non Operating, dtype: object
+2025-03-12 17:46:55,983 - INFO - AAGR: nan
+2025-03-12 17:46:55,983 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:55,984 - INFO - Tax Rate: 0.18525
+2025-03-12 17:46:56,303 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 17:46:56,303 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 17:46:56,320 - INFO - This is the Cost of Equity VRTX: 2.153%
+2025-03-12 17:46:56,320 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 17:46:56,320 - INFO - This is the Total Cost of Equity required by an investor to hold VRTX: 6.348%
+2025-03-12 17:46:56,320 - INFO - Cost of Equity: 0.06347519418455637
+2025-03-12 17:46:56,320 - INFO - Cost of Debt: 0.0431638418079096
+2025-03-12 17:46:56,320 - INFO - WACC: 0.06308889417723351
+2025-03-12 17:46:56,320 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 17:46:56,798 - INFO - Perpetuity Growth Rate: 0.01558
+2025-03-12 17:46:56,799 - INFO - Total Present Value: nan
+2025-03-12 17:46:56,799 - INFO - Intrinsic Value/Share: nan
+2025-03-12 17:46:56,799 - INFO - Undervalue/Overvalue: nan

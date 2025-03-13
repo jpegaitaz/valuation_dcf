@@ -8,34 +8,52 @@ import random
 import os 
 import time
 
+# Generate a unique session ID
 session_id = datetime.now().strftime('%Y%m%d%H%M%S') + str(random.randint(1000, 9999))
 
+# Setup logging
 log_filename = f'log/{session_id}.log'
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 print(f"Logging to {log_filename}")
 
-# Function to get all tickers tickers
+# Fetch Tickers
 def get_exchange_tickers():
-    file_path = 'ranking/dow30_ranking.csv'
-
-    if not os.path.exists(file_path):
-        print(f"Error: {file_path} not found!")
-        return pd.DataFrame()  
+    folder_path = 'ranking'  
     
-    return pd.read_csv(file_path)
+
+    available_markets = [f.replace('_ranking.csv', '') for f in os.listdir(folder_path) if f.endswith('_ranking.csv')]
+    
+    if not available_markets:
+        print("Error: No market files found in 'ranking' directory!")
+        return pd.DataFrame()
+   
+    print("Available Markets:", ", ".join(available_markets))
+    market_choice = input("Enter the market name (e.g., Nasdaq, NYSE, SP500, Dow30): ").strip()
+    
+    file_path = os.path.join(folder_path, f'{market_choice}_ranking.csv')
+    
+    if not os.path.exists(file_path):
+        print(f"Error: {file_path} not found! Please enter a valid market name.")
+        return pd.DataFrame()
+
+    df = pd.read_csv(file_path)
+    if 'Symbol' not in df.columns:
+        print("Error: 'Symbol' column not found in CSV file!")
+        return pd.DataFrame()
+    
+    return df
 
 exchange_df = get_exchange_tickers()
 
-if 'Symbol' in exchange_df.columns:
+if not exchange_df.empty and 'Symbol' in exchange_df.columns:
     exchange_tickers = exchange_df['Symbol'].tolist()
 else:
-    print("Error: 'Symbol' column not found in CSV file!")
-    exchange_tickers = []
+    print("Error: No valid tickers found!")
+    exchange_tickers = []  
 
 print("Loaded Tickers:", exchange_tickers)
 
-# Create an empty DataFrame to store results
 result_df_s = pd.DataFrame(columns=['Ticker', 'WACC', 'Total_Present_Value', 'AAGR', 
                                     'Current_Market_Cap', 'Intrinsic_Value_Per_Share', 
                                     'Current_Stock_Price', 'Undervalue_Overvalue', 'Rank'])
@@ -71,7 +89,7 @@ def calculate_avg_growth_rate(ticker_symbol):
 
     for ticker in ticker_symbol:
         try:
-            # 1 Get historical close data 
+            # 1) Get historical close data 
             end_date = datetime.today().strftime('%Y-%m-%d')
             df = yf.download(ticker, start='2000-01-01', end=end_date, group_by='column')
             if isinstance(df.columns, pd.MultiIndex):
@@ -84,7 +102,7 @@ def calculate_avg_growth_rate(ticker_symbol):
 
             historical_data = df[close_cols[0]].dropna()
 
-            # 2 Check for valid data
+            # 2) Check for valid data 
             if historical_data.empty:
                 print(f"Skipping {ticker}: Data is empty.")
                 continue
@@ -95,19 +113,19 @@ def calculate_avg_growth_rate(ticker_symbol):
                 print(f"Skipping {ticker}: Less than 25 valid rows.")
                 continue
 
-            # 3 Calculate monthly returns
+            # 3) Calculate monthly returns
             returns = historical_data.resample('M').ffill().pct_change()
             if returns.dropna().empty:
                 print(f"Skipping {ticker}: monthly returns are empty.")
                 continue
 
-            # 4 Calculate average growth rate for the past 120 months (10 years)
+            # 4) Calculate average growth rate for the past 120 months 
             avg_growth_rate = returns.tail(120).mean()
             if pd.isna(avg_growth_rate) or avg_growth_rate == 0:
                 print(f"Skipping {ticker}: invalid growth rate.")
                 continue
 
-            # 5 Add absolute value of growth rate to total
+            # 5) Add absolute value of growth rate to total
             total_growth_rate += abs(avg_growth_rate)
             count_tickers += 1
 
@@ -115,7 +133,7 @@ def calculate_avg_growth_rate(ticker_symbol):
             print(f"Failed to fetch data for {ticker}: {e}")
             continue
 
-    # 6 Final average growth rate
+    # 6) Final average growth rate
     if count_tickers > 0:
         return round(total_growth_rate / count_tickers, 5)
     else:
@@ -160,7 +178,7 @@ def calculate_cost_of_equity(ticker_symbol):
             risk_free_rate = last_tbill / 100.0
             logging.info(f"Risk Free Rate:, {risk_free_rate}")
 
-            # Calculate beta using regression against a market index
+            # Calculate beta using regression against a market index 
             end_date = datetime.today().strftime('%Y-%m-%d')
             market_index = yf.download('^IXIC', start='2022-01-01', end=end_date, group_by='column')
             if isinstance(market_index.columns, pd.MultiIndex):
@@ -180,6 +198,7 @@ def calculate_cost_of_equity(ticker_symbol):
             # Weekly returns for market index
             market_index = market_index.resample('W-Fri').last().pct_change().dropna()
 
+            # Merge stock and market returns
             merged_data = pd.concat([stock_returns_weekly, market_index], axis=1).dropna()
             merged_data.columns = ['Stock_Returns', 'Market_Index']
 
@@ -216,10 +235,10 @@ def calculate_cost_of_equity(ticker_symbol):
         return None
     
 max_attempts = 3
-wait_seconds = 30  
+wait_seconds = 30 
 
 # ----------------------------
-# QUERY A SINGLE TICKER
+# QUERY A TICKER
 # ----------------------------
 
 while True:

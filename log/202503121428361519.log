@@ -1,0 +1,29 @@
+2025-03-12 14:28:45,268 - INFO - Session ID: 202503121428361519, Ticker: STEM, Message: Starting processing TICKER.
+2025-03-12 14:28:46,668 - INFO - Session ID: 202503121428361519, This is the Current Stock Price: 0.44
+2025-03-12 14:28:46,670 - INFO - Session ID: 202503121428361519, FCF Row:
+[-48417000.0, -225613000.0, -126898000.0, -111440000.0]
+2025-03-12 14:28:46,670 - INFO - Market Cap: 67170184
+2025-03-12 14:28:46,670 - INFO - Total Debt: 600163968
+2025-03-12 14:28:46,670 - INFO - Session ID: 202503121428361519, 
+Revenue Row: 2024-12-31    177112000.0
+2023-12-31    182979000.0
+2022-12-31    164213000.0
+2021-12-31     84321000.0
+2020-12-31            NaN
+Name: Operating Expense, dtype: object
+2025-03-12 14:28:46,672 - INFO - AAGR: nan
+2025-03-12 14:28:46,672 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 14:28:46,674 - INFO - Tax Rate: 0.13222499999999998
+2025-03-12 14:28:46,959 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 14:28:46,959 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 14:28:47,110 - INFO - This is the Cost of Equity STEM: -3.982%
+2025-03-12 14:28:47,110 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 14:28:47,110 - INFO - This is the Total Cost of Equity required by an investor to hold STEM: 0.213%
+2025-03-12 14:28:47,110 - INFO - Cost of Equity: 0.002125835625388414
+2025-03-12 14:28:47,111 - INFO - Cost of Debt: 0.032625947696442545
+2025-03-12 14:28:47,111 - INFO - WACC: 0.025676228370978008
+2025-03-12 14:28:47,111 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 14:28:47,242 - INFO - Perpetuity Growth Rate: 0.02171
+2025-03-12 14:28:47,242 - INFO - Total Present Value: nan
+2025-03-12 14:28:47,243 - INFO - Intrinsic Value/Share: nan
+2025-03-12 14:28:47,243 - INFO - Undervalue/Overvalue: nan

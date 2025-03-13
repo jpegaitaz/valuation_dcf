@@ -1,0 +1,86 @@
+2025-03-12 14:37:51,042 - INFO - Session ID: 202503121437399030, Ticker: CZR, Message: Starting processing TICKER.
+2025-03-12 14:37:52,416 - INFO - Session ID: 202503121437399030, This is the Current Stock Price: 34.06
+2025-03-12 14:37:52,418 - INFO - Session ID: 202503121437399030, FCF Row:
+[-236000000.0, 515000000.0, 12000000.0, 340000000.0]
+2025-03-12 14:37:52,419 - INFO - Market Cap: 5970285568
+2025-03-12 14:37:52,419 - INFO - Total Debt: 25777999872
+2025-03-12 14:37:52,419 - INFO - Session ID: 202503121437399030, 
+Revenue Row: 2024-12-31    2377000000.0
+2023-12-31    2354000000.0
+2022-12-31    2277000000.0
+2021-12-31    2311000000.0
+2020-12-31             NaN
+Name: Interest Expense Non Operating, dtype: object
+2025-03-12 14:37:52,420 - INFO - AAGR: nan
+2025-03-12 14:37:52,421 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 14:37:52,422 - INFO - Tax Rate: 0.178894
+2025-03-12 14:37:52,791 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 14:37:52,791 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 14:37:52,923 - INFO - This is the Cost of Equity CZR: -2.057%
+2025-03-12 14:37:52,924 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 14:37:52,924 - INFO - This is the Total Cost of Equity required by an investor to hold CZR: 2.138%
+2025-03-12 14:37:52,924 - INFO - Cost of Equity: 0.02137954476049765
+2025-03-12 14:37:52,925 - INFO - Cost of Debt: 0.09151976430149766
+2025-03-12 14:37:52,925 - INFO - WACC: 0.06503634251819015
+2025-03-12 14:37:52,925 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 14:37:53,116 - INFO - Perpetuity Growth Rate: 0.0312
+2025-03-12 14:37:53,116 - INFO - Total Present Value: nan
+2025-03-12 14:37:53,116 - INFO - Intrinsic Value/Share: nan
+2025-03-12 14:37:53,116 - INFO - Undervalue/Overvalue: nan
+2025-03-12 14:39:20,141 - INFO - Session ID: 202503121437399030, Ticker: KO, Message: Starting processing TICKER.
+2025-03-12 14:39:21,813 - INFO - Session ID: 202503121437399030, This is the Current Stock Price: 70.44
+2025-03-12 14:39:21,816 - INFO - Session ID: 202503121437399030, FCF Row:
+[4741000000.0, 9747000000.0, 9534000000.0, 11258000000.0]
+2025-03-12 14:39:21,816 - INFO - Market Cap: 302145273856
+2025-03-12 14:39:21,816 - INFO - Total Debt: 46656999424
+2025-03-12 14:39:21,816 - INFO - Session ID: 202503121437399030, 
+Revenue Row: 2024-12-31    1770000000.0
+2023-12-31    1691000000.0
+2022-12-31    1472000000.0
+2021-12-31    1438000000.0
+2020-12-31             NaN
+Name: Earnings From Equity Interest, dtype: object
+2025-03-12 14:39:21,817 - INFO - AAGR: nan
+2025-03-12 14:39:21,817 - INFO - Forecasted Cash Flows: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 14:39:21,818 - INFO - Tax Rate: 0.18799999999999997
+2025-03-12 14:39:22,125 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 14:39:22,126 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 14:39:22,145 - INFO - This is the Cost of Equity KO: 3.208%
+2025-03-12 14:39:22,146 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 14:39:22,146 - INFO - This is the Total Cost of Equity required by an investor to hold KO: 7.403%
+2025-03-12 14:39:22,146 - INFO - Cost of Equity: 0.07402526532352548
+2025-03-12 14:39:22,146 - INFO - Cost of Debt: 0.03360317158864305
+2025-03-12 14:39:22,146 - INFO - WACC: 0.06777322935713022
+2025-03-12 14:39:22,146 - INFO - Discounted CF: [np.float64(nan), np.float64(nan), np.float64(nan), np.float64(nan)]
+2025-03-12 14:39:22,581 - INFO - Perpetuity Growth Rate: 0.00834
+2025-03-12 14:39:22,581 - INFO - Total Present Value: nan
+2025-03-12 14:39:22,581 - INFO - Intrinsic Value/Share: nan
+2025-03-12 14:39:22,581 - INFO - Undervalue/Overvalue: nan
+2025-03-12 14:39:45,560 - INFO - Session ID: 202503121437399030, Ticker: NVDA, Message: Starting processing TICKER.
+2025-03-12 14:39:47,279 - INFO - Session ID: 202503121437399030, This is the Current Stock Price: 116.73
+2025-03-12 14:39:47,281 - INFO - Session ID: 202503121437399030, FCF Row:
+[60853000000.0, 27021000000.0, 3808000000.0, 8132000000.0]
+2025-03-12 14:39:47,281 - INFO - Market Cap: 2843361148928
+2025-03-12 14:39:47,281 - INFO - Total Debt: 10270000128
+2025-03-12 14:39:47,281 - INFO - Session ID: 202503121437399030, 
+Revenue Row: 2025-01-31    3491000000.0
+2024-01-31    2654000000.0
+2023-01-31    2440000000.0
+2022-01-31    2166000000.0
+Name: Selling General And Administration, dtype: object
+2025-03-12 14:39:47,283 - INFO - AAGR: 0.17652613385570318
+2025-03-12 14:39:47,283 - INFO - Forecasted Cash Flows: [np.float64(71595144823.5211), np.float64(37402839567.04365), np.float64(6201570357.27014), np.float64(15581299799.604364)]
+2025-03-12 14:39:47,284 - INFO - Tax Rate: 0.1205
+2025-03-12 14:39:47,596 - INFO - T-Bill Rate:, 4.195000171661377
+2025-03-12 14:39:47,596 - INFO - Risk Free Rate:, 0.04195000171661377
+2025-03-12 14:39:47,614 - INFO - This is the Cost of Equity NVDA: -3.396%
+2025-03-12 14:39:47,614 - INFO - Above the risk-free rate (4.195%)
+2025-03-12 14:39:47,614 - INFO - This is the Total Cost of Equity required by an investor to hold NVDA: 0.799%
+2025-03-12 14:39:47,614 - INFO - Cost of Equity: 0.007993766711822017
+2025-03-12 14:39:47,615 - INFO - Cost of Debt: 0.02217402850314243
+2025-03-12 14:39:47,615 - INFO - WACC: 0.00803518417172933
+2025-03-12 14:39:47,615 - INFO - Discounted CF: [np.float64(71024450284.787), np.float64(36808929965.615685), np.float64(6054448683.981273), np.float64(15090405862.167786)]
+2025-03-12 14:39:50,050 - INFO - Perpetuity Growth Rate: 0.0547
+2025-03-12 14:39:50,051 - INFO - Total Present Value: -209370548776.29425
+2025-03-12 14:39:50,052 - INFO - Intrinsic Value/Share: -8.553766751493004
+2025-03-12 14:39:50,052 - INFO - Undervalue/Overvalue: -125.283766751493
